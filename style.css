@@ -1,0 +1,158 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #020617;
+    border-bottom: 2px solid #1e293b;
+}
+.site-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+.navigation a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #facc15;
+    font-size: 16px;
+}
+.navigation a:hover {
+    color: #ffffff;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    min-height: 70vh;
+    background-color: #020617;
+}
+.description {
+    width: 50%;
+}
+.description
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #facc15;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e5e7eb;
+}
+.image-section {
+    width: 40%;
+    text-align: center;
+}
+.image-section
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #1e293b;
+    padding: 10px;
+    background-color: #0f172a;
+}
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #020617;
+    border-top: 2px solid #1e293b;
+    font-size: 14px;
+    color: #cbd5f5;
+}
+.about-body {
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about-content {
+    width: 85%;
+    margin: 40px auto;
+    padding: 40px;
+}
+.about-content
+h2 {
+    color: #facc15;
+}
+p {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000000;
+}
+.about-text {
+    width: 100%;
+}
+.about-images {
+    margin-top: 30px;
+    text-align: center;
+}
+img {
+    width: 180px;
+    margin: 10px;
+    border: 2px solid #facc15;
+}
+.my-photo {
+    width: 180px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border: 2px solid #facc15;
+}
+.my-photo-right {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 2px solid #facc15;
+}
+.hobby-photo {
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+    border: 2px solid #facc15;
+}
+.hobby-photo-right {
+    width: 200px;
+    float: right;
+    margin: 20px 0 20px 20px;
+    border: 2px solid #facc15;
+}
+.main-content {
+    background-color: #020617;
+    padding: 60px 40px;
+    min-height: 70vh;
+}
+h2 {
+    color: #facc15;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #fde68a;
+    margin-top: 20px;
+}
+p {
+    color: #e5e7eb;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.services-list
+p {
+    margin-bottom: 10px;
+}
+.project {
+    margin-bottom: 20px;
+}
+.contact-info
+p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.about-body .main-content {
+    background: none !important;
+    display: block;
+}
